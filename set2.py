@@ -6,3 +6,6 @@ Sample Output:
 1 2 3 4 5
 
 ***
+values = set(map(int, input().split()))
+print(" ".join(map(str, sorted(values))))
+
